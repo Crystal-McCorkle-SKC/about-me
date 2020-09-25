@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+#container { 
+
+    background-color: white; 
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    font-family: 'Asap', sans-serif;
+     /*The CSS Box Model describes a box that is wrapped around all HTML content
+    Margin clears the area outide the border and is transparent. The border goes
+    around the padding and content. The padding clears the area around the content 
+    and is transparent. Lastly, there is the actual conent box, which is home to 
+    your text and images.*/
+}
+
+.left-col {
+    float: left;
+    color: #A64AC9;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: black;
+    font-weight: 75px;
+}
+
+.right-col {
+    float: right;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.button {
+    background-color: white;
+    color: #A64AC9; 
+    border-radius: 5px; 
+    border: 2px solid #A64AC9;  
+    text-decoration: none !important;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a, a:visited{
+    color: #A64AC9;  
+}
+
+p {
+    color: black;
+    margin-bottom: 2em;
+}
+
+
